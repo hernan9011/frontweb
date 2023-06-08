@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Barra lateral</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <div id="bar" class="bar">
+        <p id="text-bar" class="titulo">Perfil</p>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+        <div class="icon" id="icon1" onclick="changeContent(1)"><i class="fa fa-envelope"></i></div>
+        <div class="icon" id="icon2" onclick="changeContent(2)"><i class="fa fa-envelope"></i></div>
+        <div class="icon" id="icon3" onclick="changeContent(3)"><i class="fa fa-envelope"></i></div>
+        <div class="icon" id="icon4" onclick="changeContent(4)"><i class="fa fa-envelope"></i></div>            
+        </div> 
+        <div class="content">
+        <div class="section active" id="section1">
+            <h2>Sección 1</h2>
+            <p>Contenido de la sección 1</p>
+        </div>
+        <div class="section" id="section2">
+            <h2>Sección 2</h2>
+            <p>Contenido de la sección 2</p>
+        </div>
+        <div class="section" id="section3">
+            <h2>Sección 3</h2>
+            <p>Contenido de la sección 3</p>
+        </div>
+        <div class="section" id="section4">
+            <h2>Sección 4</h2>
+            <p>Contenido de la sección 4</p>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+  </body>
+</html>
